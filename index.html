@@ -17,7 +17,7 @@
     
     <header>
         <nav>
-            <ul>
+            <ul class="nav">
                 <a href="" class="nav_letters">Inicio</a>
                 <a href="" class="nav_letters">Cursos</a>
                 <a href="" class="nav_letters">Idiomas</a>
@@ -43,20 +43,15 @@
             aria-label="Slide 5"></button>
         </div>
         <div id="size car_size" class="carousel-inner">
-          <div class="carousel-item active car1">
-            <img src="/AprendeFacil/img/car1.jpg" alt="...">
+          <div id="img1" class="carousel-item active">
           </div>
-          <div class="carousel-item">
-            <img src="/AprendeFacil/img/car2.jpg" alt="...">
+          <div id="img2" class="carousel-item">
           </div>
-          <div class="carousel-item">
-            <img src="/AprendeFacil/img/car3.jpg" class="d-block w-100" alt="...">
+          <div id="img3" class="carousel-item">
           </div>
-          <div class="carousel-item">
-            <img src="/AprendeFacil/img/car4.jpg" class="d-block w-100" alt="...">
+          <div id="img4" class="carousel-item">
           </div>
-          <div class="carousel-item">
-            <img src="/AprendeFacil/img/car5.jpg" alt="...">
+          <div id="img5" class="carousel-item">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -88,7 +83,73 @@
       </div>
     </div>
 
+    <section>
+      <h2 class="subtitle">Nuestro objetivo</h2>
+      <div class="objetive_box">
+        <p>Nuestro objetivo principal es enseñar con valores y conocimientos generando confianza y 
+          ganas de aprender a nuestros alumnos.</p>
+        <p>Para esto, ofrecemos las siguientes características:</p>
+          <ul>
+            <li>Profesores capacitados y con experiencia en el área.</li>
+            <li>Aulas con capacidad de alumnos limitada.</li>
+            <li>Clases particulares individuales o grupales en grupos de hasta 4 personas.</li>
+            <li>Plataforma de fácil acceso y entendimiento.</li>
+            <li>Material base y de práctica.</li>
+          </ul>
+      </div>
+    </section>
+
+    <section id="accordion_structure">
+      <h3>Preguntas frecuentes:</h3>
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div id="border" class="accordion-item">
+          <h2 class="accordion-header">
+            <button id="green_for_cont" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+              ¿Cómo es la modalidad de cursada?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+            <div id="green_for_letters" class="accordion-body">
+               Dependiendo del curso, podrás elegir la modalidad y horarios que prefieras y que se ajuste mejor a tu interés.
+            </div>
+          </div>
+        </div>
+        <div id="border" class="accordion-item">
+          <h2 class="accordion-header">
+            <button id="green_for_cont" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+              Ya me registre, ¿Ahora cómo hago?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+            <div id="green_for_letters" class="accordion-body">
+              Próximamente recibirás un mail de parte de AprendeFacil en donde te brindaremos toda la información importante relativa 
+              al acceso a la plataforma, datos de cursada y pago mensual. A su vez, el profesor a cargo del curso se contactará contigo 
+              por mail para presentarse, contarte sobre la cursada y la forma de evaluación.
+            </div>
+          </div>
+        </div>
+        <div id="border" class="accordion-item">
+          <h2 class="accordion-header">
+            <button id="green_for_cont" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+              ¿Puedo hacer varios cursos a la vez?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+            <div id="green_for_letters" class="accordion-body">
+              Claro que sí, siempre y cuándo los cursos no tengan horarios y días superpuestos ya que eso complicaría tu atención y 
+              participación en ambos cursos.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     </main>
+
+    <footer class="nav">
+      <ul>
+         <a href="" class="nav_letters">Contactanos</a>
+      </ul>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
