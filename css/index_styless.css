@@ -1,8 +1,10 @@
-* { 
-    box-sizing: border-box; padding: 0; margin: 0;    
-} 
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 
-.nav{
+.nav {
     background-color: rgb(23, 143, 103);
     width: 100%;
     padding: 0.7%;
@@ -10,30 +12,30 @@
     text-decoration: none;
 }
 
-a.nav_letters{
+a.nav_letters {
     justify-content: space-evenly;
     margin-left: 3%;
     color: white;
     text-decoration: none;
 }
 
-h1{
+h1 {
     text-align: center;
     padding: 2%;
     color: rgb(23, 143, 103);
 }
 
-#size{
+#size {
     width: 50%;
 }
 
-#car_size{
+#car_size {
     width: 100%;
     height: 550px;
 }
 
 
-#img1{
+#img1 {
     width: 100%;
     height: 424px;
     background-image: url("/AprendeFacil/img/car1.jpg");
@@ -41,7 +43,7 @@ h1{
     background-size: cover;
 }
 
-#img2{
+#img2 {
     width: 100%;
     height: 424px;
     background-image: url("/AprendeFacil/img/car2.jpg");
@@ -49,7 +51,7 @@ h1{
     background-size: cover;
 }
 
-#img3{
+#img3 {
     width: 100%;
     height: 424px;
     background-image: url("/AprendeFacil/img/car3.jpg");
@@ -57,7 +59,7 @@ h1{
     background-size: cover;
 }
 
-#img4{
+#img4 {
     width: 100%;
     height: 424px;
     background-image: url("/AprendeFacil/img/car4.jpg");
@@ -65,7 +67,7 @@ h1{
     background-size: cover;
 }
 
-#img5{
+#img5 {
     width: 100%;
     height: 424px;
     background-image: url("/AprendeFacil/img/car5.jpg");
@@ -74,12 +76,12 @@ h1{
 }
 
 
-#car_with_words{
+#car_with_words {
     width: 100%;
-    display:flex;
+    display: flex;
 }
 
-.space_for_words{
+.space_for_words {
     background-color: rgb(66, 166, 133);
     color: white;
     width: 50%;
@@ -87,34 +89,34 @@ h1{
     transition: 5s all;
 }
 
-.space_for_words:hover{
+.space_for_words:hover {
     color: rgb(23, 145, 104);
     color: white;
 }
 
-.title_car{
+.title_car {
     padding: 1.5%;
     text-align: center;
 }
 
-.space_content1{
+.space_content1 {
     padding: 2.5%;
     text-align: left;
 }
 
-.space_content2{
+.space_content2 {
     margin-top: -5%;
     padding: 2.5%;
     text-align: left;
 }
 
-.subtitle{
+.subtitle {
     color: rgb(23, 145, 104);
     text-align: center;
     padding: 2%;
 }
 
-.objetive_box{
+.objetive_box {
     width: 50%;
     height: 280px;
     background-color: rgb(23, 143, 103);
@@ -129,7 +131,7 @@ h1{
 }
 
 
-#accordion_structure{
+#accordion_structure {
     width: 55.8%;
     text-align: left;
     padding: 3%;
@@ -137,19 +139,159 @@ h1{
     color: rgb(23, 143, 103);
 }
 
-#green_for_letters{
+#green_for_letters {
     color: rgb(23, 143, 103);
     font-weight: normal;
 }
 
-#green_for_cont{
+#green_for_cont {
     background-color: rgb(23, 143, 103);
     color: white;
     font-weight: bold;
 }
 
-#border{
-    border-style:groove;
+#border {
+    border-style: groove;
     border: 5%;
     border-color: rgb(23, 143, 103);
+}
+
+@media screen and (max-width: 900px) {
+
+    #car_with_words {
+        display: block;
+    }
+
+    #img1, #img2, #img3, #img4, #img5 {
+        height: 400px;
+    }
+
+    .space_for_words {
+        height: 330px;
+        width: 100%;
+    }
+
+
+    .title_car {
+        font-size: 20px;
+    }
+
+    .objetive_box {
+        width: 60%;
+    }
+    #accordion_structure {
+        width: 65.7%;
+
+    }
+
+
+}
+
+
+@media screen and (max-width: 750px) {
+
+    #car_with_words {
+        display: block;
+    }
+
+    #img1, #img2, #img3, #img4,#img5 {
+        height: 400px;
+    }
+
+    .space_for_words {
+        height: 300px;
+        width: 100%;
+    }
+
+    .title_car {
+        font-size: 18px;
+    }
+
+    .space_content1 {
+        padding: 2%;
+        font-size: 15px;
+    }
+
+    .space_content2 {
+        padding: 2%;
+        font-size: 15px;
+    }
+
+    .objetive_box {
+        width: 80%;
+        margin-left: 12%;
+    }
+
+    #accordion_structure {
+        width: 85%;
+        margin-left: 9.5%;
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+    #car_with_words {
+        display: block;
+    }
+
+
+    #img1, #img2, #img3, #img4, #img5 {
+        height: 400px;
+    }
+
+    .space_for_words {
+        height: 370px;
+        width: 100%;
+    }
+
+    .title_car {
+        font-size: 20px;
+    }
+
+    .space_content1 {
+        font-size: 16px;
+    }
+
+    .space_content2 {
+        font-size: 16px;
+    }
+
+    .objetive_box {
+        width: 70%;
+        height: 340px;
+        padding: 2%;
+        margin-left: 20%;
+    }
+
+    #accordion_structure {
+        width: 75%;
+        margin-left: 17%;
+    }
+
+}
+
+
+@media screen and (max-width: 550px) {
+
+    .objetive_box {
+        height: 380px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    #img1, #img2, #img3, #img4, #img5 {
+        height: 250px;
+    }
+
+    .space_for_words {
+        height: 380px;
+        width: 100%;
+    }
+
+    .objetive_box {
+        height: 450px;
+    }
 }
