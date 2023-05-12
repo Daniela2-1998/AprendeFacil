@@ -1,0 +1,55 @@
+h1 {
+    text-align: center;
+    padding: 3%;
+    color: rgb(23, 143, 103);
+}
+
+.space_for_items{
+    color: white;
+    width: 50%;
+    height: 415x;
+    box-shadow: 30px 30px rgb(66, 166, 133), -30px -30px rgb(66, 166, 133);
+    margin-left: 25%;
+
+}
+
+#img_id1{
+    width: 100%;
+    height: 417px;
+    background-image: url("/AprendeFacil/img/ingles1.jpg");
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+#img_id2{
+    width: 100%;
+    height: 417px;
+    background-image: url("/AprendeFacil/img/portugues1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#img_id3{
+    width: 100%;
+    height: 417px;
+    background-image: url("/AprendeFacil/img/aleman.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img_id4{
+    width: 100%;
+    height: 417px;
+    background-image: url("/AprendeFacil/img//frances.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img_id5{
+    width: 100%;
+    height: 417px;
+    background-image: url("/AprendeFacil/img/italiano.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
